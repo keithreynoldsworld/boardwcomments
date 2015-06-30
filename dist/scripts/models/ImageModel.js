@@ -10,7 +10,7 @@ module.exports = Backbone.Model.extend({
 		caption: null,
 	},
 
-	urlRoot: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas2',
+	urlRoot: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas2usa',
 	idAttribute: '_id'
 
 

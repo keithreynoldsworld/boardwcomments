@@ -12646,7 +12646,7 @@ var CommentModel = require('../models/CommentModel.js');
 
 module.exports = Backbone.Collection.extend({
 	model: CommentModel,
-	url:  'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas'
+	url:  'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexasusa'
 });
 },{"../models/CommentModel.js":7,"backbone":1,"jquery":3}],5:[function(require,module,exports){
 var $ = require('jquery');
@@ -12657,7 +12657,7 @@ var ImageModel = require('../models/ImageModel.js');
 
 module.exports = Backbone.Collection.extend({
 	model: ImageModel,
-	url: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas2'
+	url: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas2usa'
 });
 },{"../models/ImageModel.js":8,"backbone":1,"jquery":3}],6:[function(require,module,exports){
 var $ = require('jquery');
@@ -12739,7 +12739,7 @@ module.exports = Backbone.Model.extend({
 		text: null,
 		imageId: null,
 	},
-	urlRoot: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas',
+	urlRoot: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexasusa',
 	idAttribute: '_id'
 
 });
@@ -12756,7 +12756,7 @@ module.exports = Backbone.Model.extend({
 		caption: null,
 	},
 
-	urlRoot: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas2',
+	urlRoot: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas2usa',
 	idAttribute: '_id'
 
 

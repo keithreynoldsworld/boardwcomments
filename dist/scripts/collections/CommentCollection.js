@@ -6,5 +6,5 @@ var CommentModel = require('../models/CommentModel.js');
 
 module.exports = Backbone.Collection.extend({
 	model: CommentModel,
-	url:  'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas'
+	url:  'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexasusa'
 });

@@ -6,5 +6,5 @@ var ImageModel = require('../models/ImageModel.js');
 
 module.exports = Backbone.Collection.extend({
 	model: ImageModel,
-	url: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas2'
+	url: 'http://tiny-pizza-server.herokuapp.com/collections/bigkeithtexas2usa'
 });
